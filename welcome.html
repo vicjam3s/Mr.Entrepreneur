@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mr. Entrepreneur — Welcome</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- navbar (rendered by JS) -->
+    <div id="page-root">
+      <div class="hero">
+        <div class="hero-card container">
+          <div class="hero-left">
+            <h1>Mr. Entrepreneur</h1>
+            <p class="lead">Connecting local vendors and shops to trusted suppliers and manufacturers — fast, local, reliable.</p>
+            <p style="color:var(--muted);margin-top:12px">Discover suppliers by sector, contact manufacturers, and build strong supplier relationships to grow your business.</p>
+            <div style="margin-top:16px">
+              <a href="signup.html" class="btn">Get Started</a>
+              <a href="signin.html" class="btn secondary" style="margin-left:8px">Sign in</a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=60" alt="market" />
+            <img src="https://images.unsplash.com/photo-1515165562835-c0ae0d3b9a11?w=800&q=60" alt="warehouse" />
+            <img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe?w=800&q=60" alt="storefront" />
+            <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?w=800&q=60" alt="manufacturing" />
+          </div>
+        </div>
+
+        <div style="max-width:1000px;margin:18px auto;padding:8px">
+          <div class="card">
+            <h3 style="margin:0">About Mr. Entrepreneur</h3>
+            <p style="color:var(--muted);margin-top:8px">Mr. Entrepreneur is a demo web platform meant to help vendors find manufacturers and suppliers across several common business sectors. Sign up to explore sectors, search suppliers, and view the management team.</p>
+          </div>
+        </div>
+
+        <div class="app-footer">
+          &copy; <strong>Mr. Entrepreneur</strong> — Bringing vendors and manufacturers together.
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // render navbar for guest
+      document.addEventListener('DOMContentLoaded', ()=> {
+        renderNavbar(document.getElementById('page-root'));
+      });
+    </script>
+  </body>
+</html>

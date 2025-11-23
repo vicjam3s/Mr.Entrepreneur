@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign In — Mr. Entrepreneur</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="page-root">
+      <div class="container" style="max-width:640px;margin-top:60px">
+        <div class="card form">
+          <h2>Sign in</h2>
+          <p style="color:var(--muted)">Sign in to access the supplier directory and dashboard.</p>
+          <div id="signin-feedback" style="color:var(--danger);margin-bottom:8px"></div>
+          <form id="signin-form">
+            <label for="i-email">Email</label>
+            <input id="i-email" type="email" required />
+            <label for="i-pass">Password</label>
+            <input id="i-pass" type="password" required />
+            <button class="submit" type="submit">Sign In</button>
+          </form>
+          <p style="color:var(--muted);margin-top:10px">Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+      </div>
+
+      <div class="app-footer">
+        &copy; Mr. Entrepreneur
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', ()=> {
+        renderNavbar(document.getElementById('page-root'));
+        const form = document.getElementById('signin-form');
+        const fb = document.getElementById('signin-feedback');
+        handleSigninForm(form, fb);
+      });
+    </script>
+  </body>
+</html>

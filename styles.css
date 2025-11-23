@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    color: #222;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f0b000;
+}
+
+.nav-buttons button {
+    background-color: #f0b000;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.nav-buttons button:hover {
+    background-color: #d99a00;
+}
+
+.page-content {
+    padding-top: 100px;
+}
+
+
+.welcome-header {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.welcome-header h1 {
+    font-size: 3rem;
+    color: #222;
+}
+
+.welcome-header p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.welcome-images {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.welcome-images img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+
+.welcome-about {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 1.1rem;
+}
+
+.form-container {
+    width: 350px;
+    margin: 150px auto;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f0b000;
+    border: none;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-container button:hover {
+    background-color: #d99a00;
+}
+
+.search-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-section input {
+    width: 60%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #666;
+}
+
+#searchResults {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.result-item {
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border-left: 5px solid #f0b000;
+}
+
+.tiles-container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    padding-bottom: 40px;
+}
+
+.tile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 8px #ddd;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.tile:hover {
+    background-color: #f0b000;
+    color: black;
+    cursor: pointer;
+}
+
+.management-grid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+.manager-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 8px #ddd;
+}
+
+.manager-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.manager-card h3 {
+    margin: 10px 0 5px;
+}
+
+.about-section {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.about-section p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+}
