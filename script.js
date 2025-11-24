@@ -1,6 +1,3 @@
-/* ------------------------------
-   GLOBAL DATA
------------------------------- */
 
 // Pre-saved business sectors and suppliers
 const businessData = [
@@ -17,7 +14,7 @@ const businessData = [
 ];
 
 /* ------------------------------
-   SIMPLE PAGE SWITCHING
+   Simple page switching
 ------------------------------ */
 
 // Used for sign in & sign up pages
@@ -26,7 +23,7 @@ function goToMainPage() {
 }
 
 /* ------------------------------
-   SEARCH FUNCTION
+   Search bar
 ------------------------------ */
 
 function searchSector() {
@@ -56,8 +53,9 @@ function searchSector() {
     });
 }
 
+
 /* ------------------------------
-   LOAD BUSINESS TILES ON MAIN PAGE
+   Load business tiles
 ------------------------------ */
 
 function loadBusinessTiles() {
@@ -67,9 +65,42 @@ function loadBusinessTiles() {
         const tile = document.createElement("div");
         tile.className = "tile";
         tile.textContent = item.sector;
+
+       
+
+        // When tile is clicked → show supplier details
+        tile.addEventListener("click", () => {
+            showSupplierDetails(item);
+        });
+
         container.appendChild(tile);
     });
 }
+
+
+// Show Supplier Details (Popup / Panel)
+function showSupplierDetails(item) {
+    // Ensure your HTML has a container with this ID
+    const detailsBox = document.getElementById("supplierDetails");
+
+    // If item has multiple suppliers, list them all
+    const supplierListHTML = item.suppliers.map(supplier => `
+        <div class="supplier-card">
+            <h3>${supplier.name}</h3>
+            <p><strong>Phone:</strong> ${supplier.phone}</p>
+            <p><strong>Email:</strong> ${supplier.email}</p>
+            <p><strong>Location:</strong> ${supplier.location}</p>
+        </div>
+    `).join("");
+
+    detailsBox.innerHTML = `
+        <h2>${item.sector} – Suppliers</h2>
+        ${supplierListHTML}
+    `;
+
+    detailsBox.style.display = "block"; // show
+}
+
 
 /* ------------------------------
    MANAGEMENT PAGE LOADER
@@ -77,7 +108,7 @@ function loadBusinessTiles() {
 
 function loadManagement() {
     const team = [
-        { name: "Daniel M.", role: "Founder", image: "images/m1.jpg" },
+        { name: "Victor.J.", role: "Founder", image: "images/m1.jpg" },
         { name: "Sarah K.", role: "Co-Founder", image: "images/m2.jpg" },
         { name: "John P.", role: "Operations Manager", image: "images/m3.jpg" }
     ];
