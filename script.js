@@ -1,6 +1,4 @@
-/* =============================
-   BUSINESS & SUPPLIER DATA
-============================= */
+//Business-Supplier data
 const businessData = [
     {
         sector: "Agriculture",
@@ -114,10 +112,7 @@ const businessData = [
     }
 ];
 
-
-/* =============================
-   BUSINESS TILES
-============================= */
+//business tiles
 function loadBusinessTiles() {
     const container = document.getElementById("businessTiles");
     if (!container) return; // prevent errors if page doesn't have tiles
@@ -136,7 +131,7 @@ function loadBusinessTiles() {
     });
 }
 
-// Show Supplier Details (Popup / Panel)
+// Show Supplier Details
 function showSupplierDetails(item) {
     const detailsBox = document.getElementById("supplierDetails");
     if (!detailsBox) return;
@@ -164,9 +159,7 @@ function showSupplierDetails(item) {
 }
 
 
-/* =============================
-   SEARCH BAR
-============================= */
+//search bar
 function searchSector() {
     const input = document.getElementById("searchInput").value.toLowerCase();
     const resultsBox = document.getElementById("searchResults");
@@ -194,18 +187,12 @@ function searchSector() {
     });
 }
 
-
-/* =============================
-   SIMPLE PAGE SWITCH
-============================= */
 function goToMainPage() {
     window.location.href = "main.html";
 }
 
 
-/* =============================
-   MANAGEMENT PAGE LOADER
-============================= */
+//management
 function loadManagement() {
     const team = [
         { name: "Victor.J.", role: "Founder", image: "images/m1.jpg" },
