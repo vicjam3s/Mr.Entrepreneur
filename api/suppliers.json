@@ -1,0 +1,131 @@
+{
+  "electronics": [
+    { "name": "Samsung Electronics", "country": "South Korea", "email": "contact@samsung.com", "phone": "+82-234567890", "website": "https://www.samsung.com" },
+    { "name": "Sony Corporation", "country": "Japan", "email": "info@sony.com", "phone": "+81-334567890", "website": "https://www.sony.com" },
+    { "name": "LG Electronics", "country": "South Korea", "email": "support@lge.com", "phone": "+82-234789012", "website": "https://www.lg.com" },
+    { "name": "Panasonic", "country": "Japan", "email": "global@panasonic.com", "phone": "+81-355678901", "website": "https://www.panasonic.com" },
+    { "name": "Bosch Electronics", "country": "Germany", "email": "info@bosch.com", "phone": "+49-7116980", "website": "https://www.bosch.com" },
+    { "name": "Philips Electronics", "country": "Netherlands", "email": "contact@philips.com", "phone": "+31-205905000", "website": "https://www.philips.com" },
+    { "name": "Huawei Technologies", "country": "China", "email": "support@huawei.com", "phone": "+86-75528780808", "website": "https://www.huawei.com" },
+    { "name": "Xiaomi Corp", "country": "China", "email": "service@xiaomi.com", "phone": "+86-1053218888", "website": "https://www.mi.com" },
+    { "name": "Apple Inc.", "country": "USA", "email": "contact@apple.com", "phone": "+1-4089961010", "website": "https://www.apple.com" },
+    { "name": "Intel Corporation", "country": "USA", "email": "sales@intel.com", "phone": "+1-4087658080", "website": "https://www.intel.com" }
+  ],
+
+  "agriculture": [
+    { "name": "John Deere", "country": "USA", "email": "support@johndeere.com", "phone": "+1-8005378233", "website": "https://www.deere.com" },
+    { "name": "AGCO Corporation", "country": "USA", "email": "info@agcocorp.com", "phone": "+1-7708139200", "website": "https://www.agcocorp.com" },
+    { "name": "Kubota Corporation", "country": "Japan", "email": "contact@kubota.com", "phone": "+81-666754211", "website": "https://www.kubota-global.net" },
+    { "name": "CNH Industrial", "country": "UK", "email": "info@cnhindustrial.com", "phone": "+44-2070342600", "website": "https://www.cnhindustrial.com" },
+    { "name": "Sonalika International", "country": "India", "email": "exports@sonalika.com", "phone": "+91-1833055111", "website": "https://www.sonalika.com" },
+    { "name": "Mahindra Agribusiness", "country": "India", "email": "contact@mahindra.com", "phone": "+91-2267481000", "website": "https://www.mahindra.com" },
+    { "name": "Yara International", "country": "Norway", "email": "info@yara.com", "phone": "+47-24155000", "website": "https://www.yara.com" },
+    { "name": "Nutrien Ltd.", "country": "Canada", "email": "contact@nutrien.com", "phone": "+1-3069338500", "website": "https://www.nutrien.com" },
+    { "name": "Syngenta Group", "country": "Switzerland", "email": "media.relations@syngenta.com", "phone": "+41-613230111", "website": "https://www.syngenta.com" },
+    { "name": "Bayer CropScience", "country": "Germany", "email": "info@bayer.com", "phone": "+49-214301", "website": "https://www.bayer.com" }
+  ],
+
+  "pharmaceuticals": [
+    { "name": "Pfizer Inc.", "country": "USA", "email": "contact@pfizer.com", "phone": "+1-2127332323", "website": "https://www.pfizer.com" },
+    { "name": "Novartis", "country": "Switzerland", "email": "info@novartis.com", "phone": "+41-613246111", "website": "https://www.novartis.com" },
+    { "name": "Roche", "country": "Switzerland", "email": "contact@roche.com", "phone": "+41-614688888", "website": "https://www.roche.com" },
+    { "name": "Sanofi", "country": "France", "email": "contact@sanofi.com", "phone": "+33-153770400", "website": "https://www.sanofi.com" },
+    { "name": "AstraZeneca", "country": "UK", "email": "info@astrazeneca.com", "phone": "+44-2037495000", "website": "https://www.astrazeneca.com" },
+    { "name": "GSK", "country": "UK", "email": "contact@gsk.com", "phone": "+44-2080475000", "website": "https://www.gsk.com" },
+    { "name": "Johnson & Johnson", "country": "USA", "email": "support@jnj.com", "phone": "+1-7325240400", "website": "https://www.jnj.com" },
+    { "name": "Merck & Co.", "country": "USA", "email": "info@merck.com", "phone": "+1-9087404000", "website": "https://www.merck.com" },
+    { "name": "Bayer Pharma", "country": "Germany", "email": "info@bayer.com", "phone": "+49-214301", "website": "https://www.bayer.com" },
+    { "name": "Takeda Pharmaceuticals", "country": "Japan", "email": "contact@takeda.com", "phone": "+81-332782111", "website": "https://www.takeda.com" }
+  ],
+
+  "automotive": [
+    { "name": "Toyota Motors", "country": "Japan", "email": "contact@toyota-global.com", "phone": "+81-565282212", "website": "https://www.toyota-global.com" },
+    { "name": "Volkswagen Group", "country": "Germany", "email": "info@vw.com", "phone": "+49-5361910", "website": "https://www.volkswagenag.com" },
+    { "name": "Ford Motor Company", "country": "USA", "email": "support@ford.com", "phone": "+1-8003923673", "website": "https://www.ford.com" },
+    { "name": "BMW Group", "country": "Germany", "email": "contact@bmw.com", "phone": "+49-8938200", "website": "https://www.bmwgroup.com" },
+    { "name": "Honda Motor Co.", "country": "Japan", "email": "info@honda.com", "phone": "+81-334272111", "website": "https://www.honda.com" },
+    { "name": "Hyundai Motors", "country": "South Korea", "email": "global@hyundai.com", "phone": "+82-234613114", "website": "https://www.hyundai.com" },
+    { "name": "Tesla Inc.", "country": "USA", "email": "contact@tesla.com", "phone": "+1-8885183752", "website": "https://www.tesla.com" },
+    { "name": "Nissan Motors", "country": "Japan", "email": "support@nissan-global.com", "phone": "+81-455233511", "website": "https://www.nissan-global.com" },
+    { "name": "Renault Group", "country": "France", "email": "info@renault.com", "phone": "+33-176895200", "website": "https://www.renaultgroup.com" },
+    { "name": "Volvo Cars", "country": "Sweden", "email": "contact@volvocars.com", "phone": "+46-317590000", "website": "https://www.volvocars.com" }
+  ],
+
+  "construction": [
+    { "name": "Caterpillar Inc.", "country": "USA", "email": "support@cat.com", "phone": "+1-3096751000", "website": "https://www.caterpillar.com" },
+    { "name": "Komatsu Ltd.", "country": "Japan", "email": "contact@komatsu.com", "phone": "+81-362069011", "website": "https://www.komatsu.com" },
+    { "name": "LafargeHolcim", "country": "Switzerland", "email": "info@holcim.com", "phone": "+41-584858585", "website": "https://www.holcim.com" },
+    { "name": "HeidelbergCement", "country": "Germany", "email": "contact@heidelbergcement.com", "phone": "+49-62219190", "website": "https://www.heidelbergcement.com" },
+    { "name": "SANY Group", "country": "China", "email": "info@sany.com", "phone": "+86-73184038018", "website": "https://www.sanyglobal.com" },
+    { "name": "JCB", "country": "UK", "email": "contact@jcb.com", "phone": "+44-1889270000", "website": "https://www.jcb.com" },
+    { "name": "Doosan Infracore", "country": "South Korea", "email": "info@doosan.com", "phone": "+82-269727000", "website": "https://www.doosaninfracore.com" },
+    { "name": "Volvo Construction", "country": "Sweden", "email": "support@volvoce.com", "phone": "+46-16541000", "website": "https://www.volvoce.com" },
+    { "name": "Hitachi Construction Machinery", "country": "Japan", "email": "contact@hitachicm.com", "phone": "+81-298226411", "website": "https://www.hitachicm.com" },
+    { "name": "CRH PLC", "country": "Ireland", "email": "info@crh.com", "phone": "+353-16746000", "website": "https://www.crh.com" }
+  ],
+
+  "textiles": [
+    { "name": "Arvind Mills", "country": "India", "email": "contact@arvind.com", "phone": "+91-7968217000", "website": "https://www.arvind.com" },
+    { "name": "Raymond Textiles", "country": "India", "email": "info@raymond.in", "phone": "+91-2240398200", "website": "https://www.raymond.in" },
+    { "name": "Toray Industries", "country": "Japan", "email": "info@toray.co.jp", "phone": "+81-345038111", "website": "https://www.toray.com" },
+    { "name": "Luthai Textile", "country": "China", "email": "service@lttc.com", "phone": "+86-6358329001", "website": "http://www.lttc.cn" },
+    { "name": "Aditya Birla Textiles", "country": "India", "email": "support@adityabirla.com", "phone": "+91-2266515000", "website": "https://www.adityabirla.com" },
+    { "name": "Burlington Industries", "country": "USA", "email": "contact@burlington.com", "phone": "+1-3363796200", "website": "https://www.burlington.com" },
+    { "name": "Coats Group", "country": "UK", "email": "info@coats.com", "phone": "+44-2086438000", "website": "https://www.coats.com" },
+    { "name": "Shandong Ruyi Group", "country": "China", "email": "support@ruyi.com", "phone": "+86-5356226888", "website": "https://www.ruyi.com" },
+    { "name": "Hugo Boss Textiles", "country": "Germany", "email": "contact@hugoboss.com", "phone": "+49-7123459400", "website": "https://www.hugoboss.com" },
+    { "name": "Indo Rama Textiles", "country": "Indonesia", "email": "info@indorama.com", "phone": "+62-218380700", "website": "https://www.indorama.com" }
+  ],
+
+  "energy": [
+    { "name": "ExxonMobil", "country": "USA", "email": "contact@exxonmobil.com", "phone": "+1-9729406000", "website": "https://www.exxonmobil.com" },
+    { "name": "Shell Energy", "country": "Netherlands", "email": "info@shell.com", "phone": "+31-703779111", "website": "https://www.shell.com" },
+    { "name": "BP Global", "country": "UK", "email": "contact@bp.com", "phone": "+44-2074964000", "website": "https://www.bp.com" },
+    { "name": "Saudi Aramco", "country": "Saudi Arabia", "email": "info@aramco.com", "phone": "+966-138729777", "website": "https://www.aramco.com" },
+    { "name": "TotalEnergies", "country": "France", "email": "contact@total.com", "phone": "+33-147445454", "website": "https://www.totalenergies.com" },
+    { "name": "Chevron Corp", "country": "USA", "email": "info@chevron.com", "phone": "+1-9258421000", "website": "https://www.chevron.com" },
+    { "name": "Siemens Energy", "country": "Germany", "email": "info@siemens-energy.com", "phone": "+49-89123670", "website": "https://www.siemens-energy.com" },
+    { "name": "Vestas Wind Systems", "country": "Denmark", "email": "support@vestas.com", "phone": "+45-97303000", "website": "https://www.vestas.com" },
+    { "name": "Sinopec", "country": "China", "email": "contact@sinopec.com", "phone": "+86-1059971000", "website": "https://www.sinopec.com" },
+    { "name": "Enel Group", "country": "Italy", "email": "info@enel.com", "phone": "+39-0683001", "website": "https://www.enel.com" }
+  ],
+
+  "food and beverage": [
+    { "name": "Nestlé", "country": "Switzerland", "email": "info@nestle.com", "phone": "+41-219246111", "website": "https://www.nestle.com" },
+    { "name": "Coca-Cola", "country": "USA", "email": "contact@coca-cola.com", "phone": "+1-4046762121", "website": "https://www.coca-colacompany.com" },
+    { "name": "PepsiCo", "country": "USA", "email": "info@pepsico.com", "phone": "+1-9142532000", "website": "https://www.pepsico.com" },
+    { "name": "Unilever Foods", "country": "UK", "email": "support@unilever.com", "phone": "+44-2078225252", "website": "https://www.unilever.com" },
+    { "name": "Danone", "country": "France", "email": "contact@danone.com", "phone": "+33-144350406", "website": "https://www.danone.com" },
+    { "name": "Kraft Heinz", "country": "USA", "email": "info@kraftheinz.com", "phone": "+1-4124565700", "website": "https://www.kraftheinzcompany.com" },
+    { "name": "Mondelez International", "country": "USA", "email": "contact@mondelez.com", "phone": "+1-8479434000", "website": "https://www.mondelezinternational.com" },
+    { "name": "JBS Global", "country": "Brazil", "email": "info@jbs.com.br", "phone": "+55-1131488000", "website": "https://www.jbs.com.br" },
+    { "name": "AB InBev", "country": "Belgium", "email": "contact@ab-inbev.com", "phone": "+32-27660000", "website": "https://www.ab-inbev.com" },
+    { "name": "Heineken", "country": "Netherlands", "email": "info@heineken.com", "phone": "+31-205231111", "website": "https://www.theheinekencompany.com" }
+  ],
+
+  "chemicals": [
+    { "name": "BASF", "country": "Germany", "email": "contact@basf.com", "phone": "+49-621600", "website": "https://www.basf.com" },
+    { "name": "Dow Chemical", "country": "USA", "email": "info@dow.com", "phone": "+1-9896361000", "website": "https://www.dow.com" },
+    { "name": "DuPont", "country": "USA", "email": "support@dupont.com", "phone": "+1-3027741000", "website": "https://www.dupont.com" },
+    { "name": "SABIC", "country": "Saudi Arabia", "email": "info@sabic.com", "phone": "+966-112253000", "website": "https://www.sabic.com" },
+    { "name": "Mitsubishi Chemicals", "country": "Japan", "email": "contact@mcgc.com", "phone": "+81-332891100", "website": "https://www.mcgc.com" },
+    { "name": "LG Chem", "country": "South Korea", "email": "info@lgchem.com", "phone": "+82-231430000", "website": "https://www.lgchem.com" },
+    { "name": "Shin-Etsu Chemicals", "country": "Japan", "email": "support@shinetsu.com", "phone": "+81-352063000", "website": "https://www.shinetsu.co.jp" },
+    { "name": "Covestro", "country": "Germany", "email": "info@covestro.com", "phone": "+49-21460092000", "website": "https://www.covestro.com" },
+    { "name": "Formosa Plastics", "country": "Taiwan", "email": "contact@fpc.com.tw", "phone": "+886-227188000", "website": "https://www.fpc.com.tw" },
+    { "name": "Eastman Chemical", "country": "USA", "email": "info@eastman.com", "phone": "+1-4232292000", "website": "https://www.eastman.com" }
+  ],
+
+  "technology": [
+    { "name": "Microsoft", "country": "USA", "email": "support@microsoft.com", "phone": "+1-4258828080", "website": "https://www.microsoft.com" },
+    { "name": "Google", "country": "USA", "email": "contact@google.com", "phone": "+1-6502530000", "website": "https://www.google.com" },
+    { "name": "IBM", "country": "USA", "email": "info@ibm.com", "phone": "+1-9144991900", "website": "https://www.ibm.com" },
+    { "name": "SAP", "country": "Germany", "email": "contact@sap.com", "phone": "+49-62277840", "website": "https://www.sap.com" },
+    { "name": "Oracle Corporation", "country": "USA", "email": "support@oracle.com", "phone": "+1-6505067000", "website": "https://www.oracle.com" },
+    { "name": "Cisco Systems", "country": "USA", "email": "contact@cisco.com", "phone": "+1-4085264000", "website": "https://www.cisco.com" },
+    { "name": "Tencent Technology", "country": "China", "email": "info@tencent.com", "phone": "+86-75586013388", "website": "https://www.tencent.com" },
+    { "name": "Alibaba Cloud", "country": "China", "email": "contact@alibaba-cloud.com", "phone": "+86-57185022088", "website": "https://www.alibabacloud.com" },
+    { "name": "Sony Technology", "country": "Japan", "email": "info@sony.com", "phone": "+81-334567890", "website": "https://www.sony.com" },
+    { "name": "Samsung Tech", "country": "South Korea", "email": "contact@samsung.com", "phone": "+82-234567890", "website": "https://www.samsung.com" }
+  ]
+}

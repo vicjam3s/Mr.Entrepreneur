@@ -246,3 +246,45 @@ form button:hover {
   margin-bottom: 15px;
   color: #333;
 }
+/* Sector page suppliers grid */
+.suppliers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* spacing between tiles */
+  margin-top: 20px;
+}
+
+.supplier-card {
+  background: #fffdf6;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.supplier-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.supplier-card h3 {
+  margin-bottom: 10px;
+  color: #0a0a0a;
+}
+
+.supplier-card p {
+  margin-bottom: 6px;
+  color: #5a4f30;
+}
+
+.supplier-card a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+.supplier-card a:hover {
+  text-decoration: underline;
+}
+
+
