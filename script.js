@@ -37,7 +37,6 @@ function loadBusinessTiles() {
   localStorage.removeItem("selectedSector");
 }
 
-
 // Load suppliers for a specific sector
 async function loadSectorSuppliers(sector) {
   try {

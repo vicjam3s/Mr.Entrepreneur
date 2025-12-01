@@ -1,5 +1,4 @@
-// sector.js
-
+//for sector.html
 document.addEventListener("DOMContentLoaded", () => {
   const sector = localStorage.getItem("selectedSector");
   const suppliers = JSON.parse(localStorage.getItem("sectorSuppliers") || "[]");
