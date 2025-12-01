@@ -287,6 +287,10 @@ form button:hover {
   text-decoration: underline;
 }
 
+button a{
+  text-decoration: none;
+}
+
 /* Responsive adjustments */
 @media (max-width: 900px) {
   .suppliers-grid {
@@ -303,4 +307,3 @@ form button:hover {
     padding: 14px;
   }
 }
-
