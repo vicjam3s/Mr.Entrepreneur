@@ -287,4 +287,20 @@ form button:hover {
   text-decoration: underline;
 }
 
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .suppliers-grid {
+    grid-template-columns: repeat(2, 1fr); /* keep 2 columns on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .suppliers-grid {
+    grid-template-columns: 1fr; /* 1 column on phones */
+  }
+
+  .supplier-card {
+    padding: 14px;
+  }
+}
 
