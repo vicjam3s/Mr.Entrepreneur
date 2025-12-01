@@ -26,7 +26,7 @@
   ],
 
   "pharmaceuticals": [
-    { "name": "Pfizer Inc.", "country": "USA", "email": "contact@pfizer.com", "phone": "+1-2127332323", "website": "https://www.pfizer.com" },
+    { "name": "JamboRx", "country": "Kenya", "email": "contact@jamborx.com", "phone": "+254727332323", "website": "https://lihandae.github.io/JamboRx/" },
     { "name": "Novartis", "country": "Switzerland", "email": "info@novartis.com", "phone": "+41-613246111", "website": "https://www.novartis.com" },
     { "name": "Roche", "country": "Switzerland", "email": "contact@roche.com", "phone": "+41-614688888", "website": "https://www.roche.com" },
     { "name": "Sanofi", "country": "France", "email": "contact@sanofi.com", "phone": "+33-153770400", "website": "https://www.sanofi.com" },
@@ -66,7 +66,7 @@
 
   "textiles": [
     { "name": "Arvind Mills", "country": "India", "email": "contact@arvind.com", "phone": "+91-7968217000", "website": "https://www.arvind.com" },
-    { "name": "Raymond Textiles", "country": "India", "email": "info@raymond.in", "phone": "+91-2240398200", "website": "https://www.raymond.in" },
+    { "name": "Perry's Collection", "country": "Kenya", "email": "info@perryscollection.co.ke", "phone": "+254-72403200", "website": "https://roymulinge.github.io/e-commerce" },
     { "name": "Toray Industries", "country": "Japan", "email": "info@toray.co.jp", "phone": "+81-345038111", "website": "https://www.toray.com" },
     { "name": "Luthai Textile", "country": "China", "email": "service@lttc.com", "phone": "+86-6358329001", "website": "http://www.lttc.cn" },
     { "name": "Aditya Birla Textiles", "country": "India", "email": "support@adityabirla.com", "phone": "+91-2266515000", "website": "https://www.adityabirla.com" },
