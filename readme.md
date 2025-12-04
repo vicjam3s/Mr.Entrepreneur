@@ -52,4 +52,4 @@ Mr-Entrepreneur/
 
 ---
 
-**Tech Stack:** HTML, CSS, JavaScript (Vanilla JS)
+**Tech Stack:** HTML, CSS, JavaScript.)
